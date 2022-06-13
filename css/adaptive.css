@@ -1,0 +1,55 @@
+@media only screen and ( max-width: 1200px) {
+    .cart {
+        padding-left: 100px;
+    }
+    .clean {
+        height: 440px;
+    }
+    .menu {
+        font-size: 16px;
+    }
+    .quote {
+        font-size: 14px;
+    }
+}
+
+@media only screen and ( max-width: 992px) {
+    .title {
+        font-size: 50px;
+        padding-left: 50px;
+        font-weight: 600;
+    }
+    .suptitle {
+        font-size: 20px;
+        padding-left: 50px;
+    }
+    .cart {
+        padding-left: 20px;
+    }
+    .munu {
+        font-size: 8px;
+    }
+    .logo {
+        padding-right: 20px;
+        margin-left: 50px;
+    }
+    .quote {
+        margin-left: 50px;
+        font-size: 14px;
+    }
+    .call {
+        font-size: 14px;
+    }
+    .number {
+        font-size: 14px;
+    }
+    .clean {
+        height: 400px;
+    }
+}
+
+@media only screen and ( max-width: 768px) {}
+
+@media only screen and ( max-width: 480px) {}
+
+@media only screen and ( max-width: 320px) {}
