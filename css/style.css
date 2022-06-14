@@ -148,6 +148,10 @@
         align-items: center;
     }
     
+    .imgphone {
+        height: 92px;
+    }
+    
     .number {
         font-family: 'Roboto', sans-serif;
         font-style: normal;
