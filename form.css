@@ -1,0 +1,108 @@
+div{
+    display: block;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Hind", sans-serif;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+h3 {
+    text-align: center;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Hind", sans-serif;
+    margin-bottom: 20px;
+    font-weight: 700;
+    
+}
+
+#contact form>div {
+    margin-bottom: 15px;
+}
+
+#contact {
+    padding: 60px 50px;
+    color: #fff;
+    font-size: 21px;
+    background-color: #0075FF;
+    background-attachment: fixed;
+}
+
+.row {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+ #contact form input[type=tel], #contact form input[type=text], #contact form textarea {
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    border: 2px solid #fff;
+    font-family: "Hind", sans-serif;
+    color: #1d1d1d;
+    background-color: #fff; 
+     text-indent: 10px;
+    padding: 10px 5px;
+     transition: all 200ms ease-in; 
+     border-radius: 5px; 
+    width: 100%;}
+
+    *, :after, :before {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #contact form textarea {
+        width: 100%;
+        min-height: 150px;
+        padding: 15px 5px;
+    }
+
+    label {
+        cursor: default;
+    }
+
+    #contact form label {
+        display: block;
+        margin: 0 0 5px 5px;
+    }
+
+    #contact form input[type=button], #contact form input[type=submit] {
+        margin: 25px auto 0 auto;
+        display: block;
+        background-color: #211F54;
+        color: #fff;
+        font-size: 21px;
+        line-height: 18px;
+        font-family: "Hind", sans-serif;
+        padding: 20px 30px 15px 30px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    #contact form label.error {
+        font-style: italic;
+        line-height: 24px;
+        font-size: 18px;
+        margin-top: 6px;
+    }
+
+    #contact form input, #contact form textarea {
+        -webkit-appearance: none;
+    }

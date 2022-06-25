@@ -1,4 +1,16 @@
 @media only screen and ( max-width: 1200px) {
+    .logo{
+        margin-left: 70px;
+    }
+    .title{
+        padding-left: 70px;
+    }
+    .suptitle{
+        padding-left: 70px;
+    }
+    .quote{
+        margin-left: 70px;
+    }
     .cart {
         padding-left: 100px;
     }
@@ -184,5 +196,26 @@
     .btn {
         font-size: 9px;
         padding: 10px 20px;
+    }
+    .girl {
+        display: none;
+    }
+    .clean {
+        display: none;
+    }
+    body {
+        background: url(IMAGEclean.png);
+    }
+    .introtitle {
+        display: block;
+    }
+    .title {
+        padding-left: 15px;
+    }
+    .suptitle {
+        padding-left: 15px;
+    }
+    .quote {
+        margin-left: 15px;
     }
 }
