@@ -12,7 +12,7 @@ h2 {
     line-height: 36px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: "Hind", sans-serif;
+    font-family: "Roboto", sans-serif;
     margin-bottom: 20px;
     font-weight: 700;
 }
@@ -22,7 +22,7 @@ h3 {
     line-height: 25px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: "Hind", sans-serif;
+    font-family: "Roboto", sans-serif;
     margin-bottom: 20px;
     font-weight: 700;
     
@@ -38,6 +38,8 @@ h3 {
     font-size: 21px;
     background-color: #0075FF;
     background-attachment: fixed;
+    position: relative;
+    animation: slideUp 0.3s ease-in-out;
 }
 
 .row {
@@ -51,7 +53,7 @@ h3 {
     font-size: 18px;
     line-height: 18px;
     border: 2px solid #fff;
-    font-family: "Hind", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #1d1d1d;
     background-color: #fff; 
      text-indent: 10px;
@@ -86,11 +88,12 @@ h3 {
     #contact form input[type=button], #contact form input[type=submit] {
         margin: 25px auto 0 auto;
         display: block;
-        background-color: #211F54;
+        background-color:#1D53BB;
+        border: #1D53BB;
         color: #fff;
         font-size: 21px;
         line-height: 18px;
-        font-family: "Hind", sans-serif;
+        font-family: "Roboto", sans-serif;
         padding: 20px 30px 15px 30px;
         width: 100%;
         border-radius: 5px;
@@ -106,3 +109,24 @@ h3 {
     #contact form input, #contact form textarea {
         -webkit-appearance: none;
     }
+
+    .exit{
+        color: #fff;
+        text-decoration: none;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        line-height: 40px;
+    }
+
+    @keyframes slideUp{
+        from{
+            opacity: 0;
+            bottom: -200px;
+        }
+        to{
+            opacity: 1;
+            bottom: 0;
+        }
+    }
+    
