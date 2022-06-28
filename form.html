@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="form.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
     <title>Document</title>
 </head>
-
-
-<section id="contact">
-   <div class="row">
-       <div class="success-message"></div>
-           <form id="contactForm" name="contactForm" class="single-page-form">
-               <h2>Do you want to get discount?</h2>
-               <a href="index.html" class="exit">&times;</a>
-               <h3>Please, full ficld below</h3>
-                    <div>
-                      <label for="name">Name</label>
-                      <input type="text" name="name" id="name" class="required" title="Name is required">
-                    </div>
-                    <div>
-                       <label for="name">Address</label>
-                       <input type="text" name="address" id="address" class="required" title="address is required">
-                    </div>
-                    <div>
-                       <label for="phone">Phone</label>
-                       <input type="tel" name="phone" id="phone" class="required" title="Phone is required">
-                    </div>
-                    <div>
-                       <label for="additional">additional into</label>
-                       <textarea name="additional" id="additional" class="required" title="additional"></textarea>
-                    </div>
-                    <div class="error-message"></div>
-                     
-                       <input type="button" value="Confirme">
-             </form>
+<body>
+    
+    <div id="popup">
+       <div class="popup-inner">
+        <h2 class="title">Do you want to get discount?</h2>
+        <h3>Please, full ficld below</h3>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" class="required" title="Name is required">
+        </div>
+        <div>
+           <label for="name">Address</label>
+           <input type="text" name="address" id="address" class="required" title="address is required">
+        </div>
+        <div>
+           <label for="phone">Phone</label>
+           <input type="tel" name="phone" id="phone" class="required" title="Phone is required">
+        </div>
+        <div>
+           <label for="additional">additional into</label>
+           <textarea name="additional" id="additional" class="required" title="additional"></textarea>
+        </div>
+        <div class="error-message"></div>
+         
+           <input type="button" value="Confirme">
+        
+        <a href="index.html" class="close-popup">X</a>
+       </div>
     </div>
-</section>
+</body>
 </html>
