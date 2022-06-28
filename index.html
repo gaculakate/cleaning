@@ -29,15 +29,16 @@
 
                 </nav>
 
-                <a class="cart" href="#">Cart(0)</a>
+                <a class="cart">Cart(0)</a>
 
-                <button class="btn" onclick="window.location.href = 'form.html';">Get a free quote</button>
+                <a class="btn" href=#popup>Get a free quote</a>
 
             </div>
 
         </div>
 
     </header>
+
     <div class="intro">
         <div class="container">
             <div class="introtitle">
@@ -46,7 +47,7 @@
 
                     <p class="suptitle">Condimentum mauris sit cursus amet id non neque pharetra nulla ornare sed facilisis senectus dapibus nibh ultrices eget suscipit aliquet et nulla magna lacus penatibus.</p>
                     <div class="phone">
-                        <button class="quote" onclick="window.location.href = 'form.html';">Get a free quote</button>
+                        <a class="quote" href ='#popup'>Get a free quote</a>
                         <img src="./img/IMAGEphone.svg" class="imgphone">
                         <div>
                             <p class="call">CALL US NOW</p>
@@ -63,6 +64,33 @@
 
         </div>
     </div>
+    <div id="popup">
+        <div class="popup-inner">
+         <h2 class="tit">Do you want to get discount?</h2>
+         <h3>Please, full field below</h3>
+         <div>
+           <label for="name">Name</label>
+           <input type="text" name="name" id="name" class="required" title="Name is required">
+         </div>
+         <div>
+            <label for="name">Address</label>
+            <input type="text" name="address" id="address" class="required" title="address is required">
+         </div>
+         <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" class="required" title="Phone is required">
+         </div>
+         <div>
+            <label for="additional">Additional into</label>
+            <input name="additional"type="text" id="additional" class="required" title="additional">
+         </div>
+         <div class="error-message"></div>
+          
+            <input type="button" value="Confirme">
+         
+         <a href="index.html" class="close-popup">X</a>
+        </div>
+     </div>
 </body>
 
 </html>
