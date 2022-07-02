@@ -1,18 +1,31 @@
-    .container {
-        width: 100%;
-        margin: 0 auto;
-    }
-
     body{
-        position: relative;
         margin: 0;
         font-family: "Roboto", sans-serif;
         font-style: normal;
     }
 
-    h3{
-        text-align: center;
+    .container {
+        width: 100%;
+        margin: 0 auto;
     }
+
+    .text-center{
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .align-items-center{
+        align-items: center;
+    }
+
+    .relative{
+        position: relative;
+    }
+
+    .justify-center{
+        justify-content: center;
+    }
+
     
     .header {
         padding-top: 30px;
@@ -26,7 +39,6 @@
     
     .header-menu {
         display: flex;
-        align-items: center;
     }
     
     .logo {
@@ -48,7 +60,6 @@
         display: inline-block;
         margin: 0 15px;
         color: #211F54;
-        text-decoration: none;
         font-weight: 400;
         font-size: 18px;
         line-height: 30px;
@@ -61,7 +72,6 @@
     .cart {
         padding-left: 300px;
         color: #211F54;
-        text-decoration: none;
         font-weight: 400;
         font-size: 18px;
         line-height: 30px;
@@ -75,11 +85,7 @@
         background: #0075FF;
         height: 30px;
         color: #fff;
-        align-items: center;
-        justify-content: center;
         padding: 15px 30px;
-        text-decoration: none;
-        text-align: center;
         font-size: 16px;
         font-weight: 700;
     }
@@ -94,7 +100,6 @@
     
     .introtitle {
         display: flex;
-        align-items: center;
     }
     
     .title {
@@ -137,11 +142,7 @@
         background: #0075FF;
         height: 30px;
         color: #fff;
-        text-decoration: none;
         padding: 15px 30px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
         font-size: 18px;
         font-weight: 700;
     }
@@ -152,7 +153,6 @@
     
     .phone {
         display: flex;
-        align-items: center;
     }
     
     .imgphone {
@@ -207,15 +207,14 @@
         border: 2px solid #000;
         color: #1d1d1d;
         background-color: #fff; 
-         text-indent: 10px;
+        text-indent: 10px;
         padding: 10px 5px;
-         transition: all 200ms ease-in; 
-         border-radius: 5px; 
+        transition: all 200ms ease-in; 
+        border-radius: 5px; 
         width: 100%;
     }
 
     #popup{
-        position: relative;
         width: 100%;
         height: 100vh;
         top: 0;
@@ -227,9 +226,7 @@
         display: -ms-flex;
         direction: -o-flex;
         display: flex;
-        justify-content: center;
         -ms-align-items:center;
-        align-items: center;
         opacity: 0;
         visibility: hidden;
     }
@@ -240,7 +237,6 @@
     }
 
     .popup-inner{
-        position: relative;
         background-color: #fff;
         max-width: 500px;
         padding: 25px;
@@ -268,8 +264,6 @@
         height: 40px;
         background-color: #1D53BB;
         color: #fff;
-        text-decoration: none;
-        text-align: center;
         line-height: 40px;
         border-radius: 50%;
     }
