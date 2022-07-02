@@ -226,7 +226,6 @@
         display: -ms-flex;
         direction: -o-flex;
         display: flex;
-        -ms-align-items:center;
         opacity: 0;
         visibility: hidden;
     }
