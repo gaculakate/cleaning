@@ -4,6 +4,25 @@
         font-style: normal;
     }
 
+    label {
+        display: block;
+        margin-top: 20px;
+        margin: 5px 0 5px 5px;
+        cursor: default;
+    }
+    
+    label.error {
+        font-style: italic;
+        line-height: 24px;
+        font-size: 18px;
+        margin-top: 6px;
+    }
+
+    iframe{
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+
     .container {
         width: 100%;
         margin: 0 auto;
@@ -30,7 +49,7 @@
     .header {
         padding-top: 30px;
         width: 100%;
-        position:absolute;
+        display: flex;
         top: 0;
         left: 0;
         right: 0;
@@ -95,7 +114,11 @@
     }
     
     .intro {
-        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
     }
     
     .introtitle {
@@ -172,21 +195,114 @@
         line-height: 10px;
         color: #6E7191;
     }
-    
-    label {
-        display: block;
-        margin-top: 20px;
-        margin: 5px 0 5px 5px;
-        cursor: default;
+
+    .section {
+        padding: 200px 0;
     }
     
-    label.error {
-        font-style: italic;
-        line-height: 24px;
+    .section-header {
+        width: 100%;
+        margin: 0 auto;
+    
+    }
+
+    .section-title{
+        color: #211F54;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 55px;
+    }
+
+    .section-suptitle{
+        color: #6E7191;
+        font-weight: 400;
         font-size: 18px;
-        margin-top: 6px;
+        line-height: 25px;
+    }
+
+    .service-img{
+        display: flex;
+        margin-top: 93px;
+    }
+
+    .item {
+        width: 30%;
+        flex: 1 1 0;
+        margin-left: 90px;
+        margin-right: 50px;
+
+    }
+
+    .item-title{
+        color: #211F54;
+    }
+
+    .item-suptitle{
+        color: #6E7191;
+    }
+
+    .button-service{
+        display: flex;
+        margin-top: 50px;
+        
+    }
+
+    .btn-service{
+         padding: 15px 30px;
+         border-radius: 12px;
+         font-weight: 400;
+         background: #0075FF;
+         color: #fff;
+         margin-right: 15px;
+
+    }
+
+    .btn-service:hover{
+        background:#211F54;
+    }
+
+    .btn-explore{
+        padding: 15px 30px;
+        border-radius: 12px;
+        font-weight: 400;
+        background: #fff;
+        border: 1px solid #6E7191;
+        color: #211F54;
+        
+    }
+
+    .line{
+        margin-top: 180px;
+        border-bottom: 2px solid #DCDDEB;
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+
+    .reviews-item{
+        display: flex;
+        margin-top: 25px;
     }
     
+    .reviews-name{
+        display: flex;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .name{
+        color: #6E7191;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 9px;
+    }
+
+    .numeric{
+        color: #211F54;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 9px;
+    }
+
      input[type=button],  input[type=submit] {
         margin: 25px auto 0 auto;
         display: block;
@@ -216,7 +332,7 @@
 
     #popup{
         width: 100%;
-        height: 100vh;
+        height:100vh;
         top: 0;
         left: 0;
         background-color: rgba(0, 0, 0, .7);

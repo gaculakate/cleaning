@@ -12,13 +12,16 @@
         margin-left: 70px;
     }
     .cart {
-        padding-left: 100px;
+        padding-left: 50px;
+    }
+    .nav{
+        display: flex;
     }
     .clean {
         height: 440px;
     }
     .menu {
-        font-size: 16px;
+        font-size: 12px;
     }
     .quote {
         font-size: 14px;
@@ -37,6 +40,12 @@
     }
     .cart {
         padding-left: 20px;
+    }
+    .btn{
+        margin-left: 25px;
+    }
+    .nav{
+        display: flex;
     }
     .menu {
         font-size: 16px;
