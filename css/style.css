@@ -303,6 +303,263 @@
         line-height: 9px;
     }
 
+    .home-header{
+        display: flex;
+        margin-top: 100px;
+    }
+
+    .home-text{
+        margin-left: 110px;
+        color: #211F54;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .home-btn{
+        padding: 20px 35px;
+        border: 1px solid #6E7191;
+        border-radius: 12px;
+        color:#211F54;
+        background: #fff;
+        margin-left: 480px;
+
+    }
+
+    .home-container{
+        display: flex;
+        margin-top: 65px;
+    }
+
+    .home-item{
+        border: 1px solid #DCDDEB;
+        border-radius: 12px;
+        padding: 80px 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .home-title{
+        color: #211F54;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .home-suptitle{
+        color: #6E7191;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .container-girl{
+        display: flex;
+        border: 1px solid #211F54;
+        padding: -10px 500px;
+        margin-top: 200px;
+        margin: 50px;
+        border-radius: 12px;
+        background: #211F54;
+    }
+
+    .girl-text{
+        float:right;
+        margin-left: 50px;
+        margin-top: 120px;
+    }
+
+    .girl-title{
+        color: #fff;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        margin: 15px 0;
+    }
+
+    .girl-suptitle{
+        color: #fff;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .girl-btn{
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .girlclian-btn{
+        border-radius: 12px;
+        padding: 15px 30px;
+        background: #0075FF;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .girlclian-btn:hover{
+        background: #fff;
+        color: #211F54;
+    }
+
+    .call2{
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .number2{
+        font-weight: 600;
+        line-height: 10px;
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .container-house{
+        display: flex;
+        margin-top: 100px;
+        margin-left: 96px;
+    }
+
+    .house-text{
+        margin-left: 60px;
+    }
+
+    .house-title{
+        color: #211F54;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .house-suptitle{
+        color: #6E7191;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .container-list{
+        display:flex;
+    }
+
+    .blok-list{
+        display: block;
+        line-height: 26px;
+    }
+
+    .blok-list2{
+        display: block;
+        line-height: 30px;
+        margin-left: 75px;
+    }
+
+    .list{
+        display: flex;
+    }
+
+    .list-text{
+        color: #211F54;
+        margin-left: 10px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .house-btn{
+        padding: 26px 38px;
+        border-radius: 12px;
+        background: #0075FF;
+        color: #fff;
+    }
+
+    .container-boy{
+        display: flex;
+        margin-top: 200px;
+    }
+
+    .boy-text{
+        display: block;
+        margin-left: 100px;
+    }
+
+    .title-boy{
+        color: #211F54;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .suptitle-boy{
+        color: #6E7191;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .small-title{
+        color: #6E7191;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .boy-list{
+        display: flex;
+        margin-top: -50px;
+    }
+
+    .list-number{
+        display: flex;
+        margin-right: 58px;
+    }
+
+    .l-num{
+        color: #211F54;
+        font-weight: 700;
+        font-size: 54px;
+        
+    }
+
+    .plus{
+        color: #0075FF;
+        font-weight: 400;
+        font-size: 54px;
+       
+    }
+
+    .boy-list-text{
+        display: flex;
+        margin-top: -60px;
+    }
+    
+    .boy-title{
+        margin-right: 120px;
+    }
+
+    .b-tit{
+        color: #6E7191;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        white-space:nowrap;
+    }
+
+    .boy-btn{
+        padding: 25px 38px;
+        border-radius: 12px;
+        background: #0075FF;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .boy-btn:hover{
+        background: #211F54;
+    }
+
      input[type=button],  input[type=submit] {
         margin: 25px auto 0 auto;
         display: block;
