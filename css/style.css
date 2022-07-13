@@ -303,11 +303,30 @@
         line-height: 9px;
     }
 
+    .imageboy{
+        margin-top: 30px;
+        display: flex;
+        position: relative;
+        height: 500;
+        width: 600;
+
+    }
+
+   .play{
+    position:absolute;
+    top: 35%;
+    left: 41%;
+    margin: -50px 0 0 -50px;
+    width: 328px;
+    height: 328px;
+
+    }
+
     .home-header{
         display: flex;
         margin-top: 100px;
     }
-
+  
     .home-text{
         margin-left: 110px;
         color: #211F54;
@@ -558,6 +577,109 @@
 
     .boy-btn:hover{
         background: #211F54;
+    }
+
+    .articles-cnerontai{
+        display: block;
+        margin-top: 230px;
+        margin-left: 100px;
+    }
+
+    .articles-text{
+        display: flex;
+    }
+
+    .articles-title{
+        color: #211F54;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .articles-suptitle{
+        color: #6E7191;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .articles-btn{
+        background: #0075FF;
+        color: #fff;
+        border-radius: 12px;
+        padding: 26px 38px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        margin-right: 20px;
+        margin-left: 297px;
+
+    }
+
+    .articl-btn{
+        background: #fff;
+        color: #211F54;
+        border: 1px solid #211F54;
+        border-radius: 12px;
+        padding: 26px 38px; 
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .img-articles{
+        display: flex;
+    }
+
+    .img-articles1{
+        margin-right: 28px;
+    }
+
+    .img-articles-text{
+        position: relative;
+        margin-top: -65px;
+        border-radius: 12px;
+        border:1px solid #EFF0F6;
+        background-color: #fff;
+        width: 500px;
+        margin-left: 34px;
+        padding-bottom: 49px;
+        padding-right: 30px;
+    }
+
+    .img-articles-title{
+        margin-left: 20px;
+        color: #211F54;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .img-articles-suptitle{
+        margin-left: 20px;
+        color: #6E7191;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .img-articles-date{
+        margin-left: 20px;
+        color: #211F54;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .square-date{
+        display: flex;
+    }
+
+    .square{
+        margin-left: 279px;
+        background: #0075FF;
+        border:1px solid #0075FF;
+        padding: 30px 30px;
     }
 
      input[type=button],  input[type=submit] {
